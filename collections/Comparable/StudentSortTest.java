@@ -9,6 +9,7 @@ public class StudentSortTest {
 		list.add(new Student(101, "Yogita", 25));
 		list.add(new Student(102, "Supriya", 25));
 		list.add(new Student(101, "Harshada", 25));
+		list.add(new Student(105, "Ram", 30));
 
 		Collections.sort(list);
 		for (Student st : list)
