@@ -8,7 +8,7 @@ public class TestOutPutStream {
 	public static void main(String[] args) {
 		try {
 			FileOutputStream fos = new FileOutputStream("C:\\Revision.Vishal.properties");
-			String s = "Hi Welcome Vinod Pimpale To Infosys";
+			String s = "Hi Welcome Vinod Angad Pimpale To Infosys";
 			byte b[] = s.getBytes();
 			fos.write(b);
 			fos.close();
